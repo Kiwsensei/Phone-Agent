@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phone agent — Menu + visuels pour votre commerce</title>
+<style>
+  :root{--bg:#0e1116;--card:#161b22;--txt:#e6e6e6;--mut:#9aa4b2;--acc:#f4a939;--acc2:#e0622b}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  .wrap{max-width:880px;margin:0 auto;padding:24px 16px}
+  header{padding:36px 0 8px;text-align:center}
+  .badge{display:inline-block;background:linear-gradient(90deg,var(--acc),var(--acc2));color:#111;font-weight:700;padding:4px 14px;border-radius:99px;font-size:.85rem}
+  h1{font-size:2.1rem;margin:14px 0 6px}
+  h1 span{color:var(--acc)}
+  .sub{color:var(--mut);max-width:640px;margin:0 auto;font-size:1.05rem}
+  .card{background:var(--card);border-radius:16px;padding:24px;margin:22px 0;border:1px solid #262c36}
+  .price{display:flex;align-items:baseline;gap:10px;justify-content:center;margin:6px 0 16px}
+  .price b{font-size:2.6rem;color:var(--acc)}
+  .price s{color:var(--mut)}
+  ul{list-style:none;display:grid;gap:10px}
+  li{padding-left:28px;position:relative}
+  li::before{content:"✅";position:absolute;left:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:12px}
+  .grid img{width:100%;border-radius:12px;border:1px solid #262c36;display:block}
+  figcaption{color:var(--mut);font-size:.8rem;text-align:center;margin-top:4px}
+  .note{color:var(--mut);font-size:.8rem;margin-top:10px;text-align:center}
+  .cta{display:block;text-align:center;background:linear-gradient(90deg,var(--acc),var(--acc2));color:#111;font-weight:800;font-size:1.05rem;padding:14px;border-radius:12px;text-decoration:none;margin-top:18px}
+  .lang{margin-top:18px;background:#131820;border-left:3px solid var(--acc);padding:14px 16px;border-radius:10px;font-size:.95rem}
+  footer{color:var(--mut);text-align:center;padding:26px 0;font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="badge">Pack lancement — 200 DH</span>
+    <h1>Phone <span>agent</span></h1>
+    <p class="sub">Menu + visuels prêts à publier pour cafés, snacks et petits commerces — livrés sous 24 heures.</p>
+  </header>
+
+  <section class="card">
+    <div class="price"><b>200 DH</b><s>— prix de lancement</s></div>
+    <ul>
+      <li><b>Menu A4</b> en 1 page (jusqu'à 20 lignes) — PNG + PDF prêts à imprimer</li>
+      <li><b>3 visuels</b> 1080 × 1080 px pour Instagram / Facebook / WhatsApp</li>
+      <li><b>1 série de retouches</b> incluse (couleurs, textes, prix)</li>
+      <li><b>Livraison sous 24 h</b> après réception du contenu complet</li>
+    </ul>
+    <p class="note">Vous envoyez : nom du commerce, vos produits + prix, éventuel logo, couleur souhaitée. On fait le reste.</p>
+    <a class="cta" href="mailto:Hamidelmand@gmail.com?subject=Pack%20menu%20200DH%20-%20Phone%20agent">Commander le pack — contactez-nous</a>
+  </section>
+
+  <section class="card">
+    <h2 style="margin-bottom:4px">Exemples de style</h2>
+    <p class="note" style="margin:0 0 4px">Exemples fictifs (Atelier Café) — chaque commandement est adapté à votre commerce.</p>
+    <div class="grid">
+      <figure><img src="images/overview.png" alt="Aperçu du pack"><figcaption>Pack complet</figcaption></figure>
+      <figure><img src="images/menu-a4.png" alt="Menu A4"><figcaption>Menu A4 (PDF inclus)</figcaption></figure>
+      <figure><img src="images/soc-01.png" alt="Visuel latte"><figcaption>Visuel réseaux 1</figcaption></figure>
+      <figure><img src="images/soc-02.png" alt="Visuel duo"><figcaption>Visuel réseaux 2</figcaption></figure>
+      <figure><img src="images/soc-03.png" alt="Visuel brunch"><figcaption>Visuel réseaux 3</figcaption></figure>
+    </div>
+    <div class="lang">
+      <b>Darija:</b> Kan9ad menu w visuels l cafés, snacks w petits commerces. Pack b 200dh: menu wa7ed + 3 tsawer l Instagram/WhatsApp, m3a modification wa7da. N9der nwjdo f 24h. Ila kayn chi ihtimam nhedro wch khas l commerce dyalek.
+    </div>
+  </section>
+
+  <footer>
+    Phone agent © 2026 — Casablanca, Maroc · contact : Hamidelmand@gmail.com
+  </footer>
+</div>
+</body>
+</html>
